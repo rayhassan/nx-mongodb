@@ -14,7 +14,7 @@ EXPOSE 27017
 
 RUN mkdir -p /data/db
 RUN chown -R mongod:mongod /var/lib/mongo
-RUN chown -R mongod:mongod /var/log/mongo
+RUN chown -R mongod:mongod /var/log/mongodb
 
 USER mongod
 WORKDIR /home/mongod
