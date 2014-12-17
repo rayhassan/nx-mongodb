@@ -16,6 +16,7 @@ RUN mkdir -p /data/db
 RUN chown -R mongod:mongod /var/lib/mongo
 RUN chown -R mongod:mongod /var/log/mongodb
 
+ENV HOSTNAME mongodb-host
 USER mongod
 WORKDIR /home/mongod
 
