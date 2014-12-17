@@ -1,4 +1,4 @@
-# Very basic/default mongodb 2.6.5 (x64) install for testing only.
+# Very basic/default of current mongodb (x64) install for testing/playground only.
 
 FROM centos:centos6
 
