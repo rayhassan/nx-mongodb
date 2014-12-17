@@ -1,4 +1,4 @@
-# Very basic/default of current mongodb (x64) install for testing/playground only.
+# Very basic/default mongodb (x64) install for testing/playground only.
 
 FROM centos:centos6
 
