@@ -19,4 +19,5 @@ RUN chown -R mongod:mongod /var/log/mongodb
 USER mongod
 WORKDIR /home/mongod
 
-ENTRYPOINT /usr/bin/mongod
+#ENTRYPOINT /usr/bin/mongod
+#CMD --dbpath /data/db
