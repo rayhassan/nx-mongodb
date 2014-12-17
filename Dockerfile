@@ -12,7 +12,7 @@ RUN yum update -y yum  && yum install -y mongodb-org sudo
 
 EXPOSE 27017
 
-RUN mkdir /data/db
+RUN mkdir -p /data/db
 RUN chown -R mongod:mongod /var/lib/mongo
 RUN chown -R mongod:mongod /var/log/mongo
 
